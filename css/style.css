@@ -32,6 +32,10 @@ h2{
   font-size: 25px;
   text-align: center;
 }
+h3{
+  font-size: 15px;
+  text-align: center;
+}
 /* Top contact information */
 #contact{
     margin-left: 5%;
@@ -137,7 +141,7 @@ h2{
    
   }
   
-  .imageLinkContainer{
+  .imageContainer{
     text-align: center;
     position: relative;
     text-align: center;
@@ -239,4 +243,77 @@ h2{
   #img9{
     width: 40%;
     height: 30%;
+  }
+
+  /* Stay Connected section */
+  .imageText1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:#FFF;
+    width: 100%;
+  }
+  .imageText2{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:#FFF;
+  }
+  .imageText3{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:#FFF;
+    font-size: 6px;
+    width: 100%;
+  }
+  .participantBook{
+    background: #EC4757;
+    color: #FFF;
+    width: fit-content;
+    height: 250px;
+   padding-right: 2%;
+  }
+  .bookImage{
+    margin-top: -20%;
+    padding-right: 2%;
+    
+  }
+  .stayConnected{
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .stayConnected h2{
+    margin-bottom: -5%;
+  }
+  .stayConnectedImg{
+    margin: 2%; 
+  }
+  #available{
+    border: solid #fff 2px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .instagramBtn{
+    border: none;
+    background-color: #AD1126;
+    display: inline-flex;
+    padding: 13px 50px 10px 43px;
+    gap: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    margin-left: 35%;
+    background-image: url( '../img/Instagram1.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    align-items: flex-end;
+   
   }
