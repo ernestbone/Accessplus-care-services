@@ -36,6 +36,11 @@ h3{
   font-size: 15px;
   text-align: center;
 }
+h4{
+  color: #3CBBE4;
+  font-size: 30px;
+  text-align: center;
+}
 /* Top contact information */
 #contact{
     margin-left: 5%;
@@ -291,6 +296,8 @@ h3{
   }
   .stayConnected h2{
     margin-bottom: -5%;
+    margin-left: -10%;
+    font-size: 40px;
   }
   .stayConnectedImg{
     margin: 2%; 
@@ -316,4 +323,38 @@ h3{
     background-position: left 15px center;
     align-items: flex-end;
    
+  }
+
+  /* Alternate contact section */
+  .altContact{
+    text-align: center;
+    margin-top: 10%;
+  }
+  #time{
+      padding-right: 15%;
+      margin-bottom: -7%;
+  }
+  #emailUs{
+    background-color: #CBE8F6;
+    width: 480px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 5%;
+    background-image: url( '../img/ic_outline-mailblue.png');
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    align-items: flex-end;
+  }
+  
+  #emailUs h3{
+    padding-top: 5%;
+  }
+  #callUs{
+    background-color: #CBE8F6;
+    width: 480px;
+    height: 150px;
+    border-radius: 30px;
+  }
+  #callUs h3{
+    padding-top: 5%;
   }
