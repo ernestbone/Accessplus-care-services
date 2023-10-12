@@ -342,7 +342,7 @@ h4{
     margin-right: 5%;
     background-image: url( '../img/ic_outline-mailblue.png');
     background-repeat: no-repeat;
-    background-position: left 15px center;
+    background-position: left 40px center;
     align-items: flex-end;
   }
   
@@ -354,6 +354,10 @@ h4{
     width: 480px;
     height: 150px;
     border-radius: 30px;
+    background-image: url( '../img/solar_phone-linear.png');
+    background-repeat: no-repeat;
+    background-position: left 50px center;
+    align-items: flex-end;
   }
   #callUs h3{
     padding-top: 5%;
