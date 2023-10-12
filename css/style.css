@@ -9,8 +9,10 @@ body{
 
 }
 
-
-/* buttons */
+form{
+  text-align: center;
+  
+}
 .btn{
     border: none;
     background-color: #3BBCE4;
@@ -128,6 +130,9 @@ h4{
 
 
   /* How it works section */
+  #howItWorks{
+    padding-left: 25px;
+  }
   #btn1{
     background-image: url( '../img/ph_arrow-right-bold.svg');
     background-size: 20px;
@@ -347,7 +352,7 @@ h4{
   }
   
   #emailUs h3{
-    padding-top: 5%;
+    padding-top: 8%;
   }
   #callUs{
     background-color: #CBE8F6;
@@ -360,5 +365,31 @@ h4{
     align-items: flex-end;
   }
   #callUs h3{
-    padding-top: 5%;
+    padding-top: 8%;
   }
+
+  /* contact form */
+  .contactUsForm{
+    text-align: center;
+    margin-top: 10%;
+  }
+  .smallInputs{
+    margin-right: 10%;
+  }
+  .smallInput{
+    width: 25%;
+    height: 70px;
+    border-radius: 10px; 
+    border: 1px solid #3BBCE4;
+    margin: 1%;
+  }
+  #message{
+    width: 73%;
+    height: 265px;
+    border-radius: 20px; 
+    border: 1px solid #3BBCE4;
+    margin-right: 10%;
+  }
+#submitNow{
+  margin-left: 50%;
+}
