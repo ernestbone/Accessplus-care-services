@@ -467,3 +467,51 @@ h5{
   padding-top: 5%;
   color:#319BCA;
 }
+
+
+
+/* contact us page */
+.contactUsCard{
+  margin-left: 25%;
+  margin-bottom: 10%;
+  padding: 2%;
+  width: 50%;
+  border-radius: 20px;
+  border-right: 3px solid #105D77;
+  border-left: 3px solid #105D77;
+  background: #E0E0E0;
+  text-align: center;
+}
+
+.supportYou{
+  text-align: center;
+}
+
+.callToday{
+  padding-right: 300px;
+  
+}
+.detail{
+  width: 300%;
+}
+
+.detailMessage{
+  height: 200px;
+  border-radius: 20px; 
+  border: 1px solid #3BBCE4;
+  margin-right: 10%;
+  width: 270%;
+}
+
+#hours{
+  color: #3CBBE4;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.detailMessage:focus{
+  outline-color: transparent;
+  border: 3px solid #3BBCE4;;
+}
