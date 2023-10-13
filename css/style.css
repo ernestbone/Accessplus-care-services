@@ -515,3 +515,25 @@ line-height: normal;
   outline-color: transparent;
   border: 3px solid #3BBCE4;;
 }
+
+/* About us page */
+.whoWeAre{
+  padding-left: 10%;
+}
+
+.missionStatement{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.jobOpportunities{
+  margin-left: 5%;
+  width: 90%;
+  padding: 5%;
+  background-color: #105D77;
+  border-radius: 20px;
+  height: 500px;
+}
+.jobOpportunities p{
+  color: #fff;
+}
