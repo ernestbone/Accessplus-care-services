@@ -9,6 +9,11 @@ body{
 
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
 form{
   text-align: center;
   
@@ -34,7 +39,9 @@ footer p{
     border-radius: 10px;
     color: #FFF;
     text-transform: uppercase;
-   
+  }
+  .btn a{
+    text-decoration: none;
   }
 
 h1{
@@ -91,7 +98,6 @@ h5{
 
 .nav a{
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 16px;
     color: #121212;
     padding-left: 10px;
@@ -206,6 +212,10 @@ h5{
     background-position: right 15px center;
     align-items: flex-end;
     background-color:#E1E1E1;
+    color: #3BBCE4;
+  }
+
+  #blueGetStarted{
     color: #3BBCE4;
   }
 
@@ -537,3 +547,146 @@ line-height: normal;
 .jobOpportunities p{
   color: #fff;
 }
+
+/* Youth Mentoring page */
+.youthMentoring{
+  background-image: url( '../img/image\ 24.png');
+  background-repeat: no-repeat;
+  height: 400px;
+  color:#fff;
+  text-align: center;
+  padding-top: 10%;
+  font-size: large;
+}
+
+.ulBox{
+  display: flex;
+  justify-content: center;
+  line-height: 200%;
+}
+#ul1{
+  padding-right: 10%;
+}
+.ymContainer{
+  background-color: #105D77;
+  margin-top: 10%;
+}
+.ymContainer p{
+  color: #fff;
+  padding-bottom: 10%;
+}
+
+
+/* training service */
+.behaviourMgt{
+  background-image: url( '../img/image\ 40.png');
+  background-repeat: no-repeat;
+  height: 400px;
+  color:#fff;
+  text-align: center;
+  padding-top: 10%;
+  font-size: large;
+}
+.personalizedBehaviour{
+  text-align: center;
+  padding: 10%;
+}
+#listOfServices{
+  border-radius: 20px;
+  background: #E0E0E0;
+  margin-left: 5%;
+  margin-right: 0.2%;
+  padding-right: 5%;
+}
+#listOfServices ul{
+  line-height: 30px;
+}
+#smallPhone{
+  border-radius: 10px;
+  background: #3BBCE4;
+  width: 190px;
+  height: 50px;
+  padding: 10px 35px 10px 15px;
+  align-items: center;
+  background-image: url( '../img/smallWhitephone.png');
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+  margin-left: -10%;
+}
+#smallEmail{
+  border-radius: 10px;
+  background: #3BBCE4;
+  width: 270px;
+  height: 50px;
+  padding: 10px 35px 10px 15px;
+  align-items: center;
+  background-image: url( '../img/smallWhiteEmail.png');
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+  margin-left: 10%;
+}
+
+.therapists{
+  background-color: #CBE8F6;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 15%;
+  padding-left: 10%;
+}
+
+#bigLocationIcon{
+  padding-right: 10%;
+  
+  height: 312px;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 2px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #3CBBE4;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color:#cccccc}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessplus</title>
+    <title>Accessplus Care Services</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -19,12 +19,23 @@
         <div class="nav">
             <img src="./img/image 1.png" alt="accessplus care services"/>
             <div id="nav">
-                    <a id="current" href="index.html">home</a>
-                    <a href="#">forms</a>
-                    <a href="#">services</a>
-                    <a href="AboutUs.html">about us</a>
-                    <a href="#">carreer</a>
-                    <a href="contactUs.html">contact us</a>
+                <a id="current" href="index.html">HOME</a>
+                <a href="index.html#forms">FORMS</a>
+                <div class="dropdown">
+                    <button class="dropbtn">SERVICES</button>
+                    <div class="dropdown-content">
+                      <a href="index.html#supportServices">Support Coordination</a>
+                      <a href="youthMentoring.html">Youth Mentoring</a>
+                      <a href="trainingService.html">Behaviour Management</a>
+                      <a href="index.html#supportServices">Support Workers</a>
+                      <a href="index.html#supportServices2">Disability Support</a>
+                      <a href="index.html#supportServices2">Therapeutic support</a>
+                      <a href="index.html#supportServices">Other Services</a>
+                    </div>
+                  </div>
+                <a href="aboutUs.html">ABOUT US</a>
+                <a href="aboutUs.html#jobOpportunities">CARREER</a>
+                <a href="contactUs.html">CONTACT US</a>
             </div>
         </div>
     </header>
@@ -51,7 +62,7 @@
             <p>
                 With different service and support streams Grace care services are encouraging more power to life in Queensland and surrounding areas. You have to follow the below-mentioned three-step process to get what you are looking for.
             </p>
-            <button class="btn" id="btn1">GET STARTED NOW</button>
+            <button class="btn" id="btn1"><a href="contactUs.html#getStarted">GET STARTED NOW</a></button>
         </div>
         <div id="ellipse">
             <div class="imageContainer" id="ellipseImage1">
@@ -74,40 +85,40 @@
                     </div>
         </div>
     </div>
-    <div class="supportServices">
+    <div class="supportServices" id="supportServices">
         <h1>Our Core Support Services Include</h1>
         <div class="container">
             <div class="cards">
                 <img src="./img/image2.png">
                 <p>Support Coordinator Services</p>
-                <button class="btn noFillBtn">get started</button>
+                <button class="btn noFillBtn"><a id="blueGetStarted" href="contactUs.html#getStarted">GET STARTED</a></button>
             </div>
             <div class="cards">
             <img src="./img/image 2.png">
                 <p>Support Workers Services</p>
-                <button class="btn noFillBtn">get started</button>
+                <button class="btn noFillBtn"><a id="blueGetStarted" href="contactUs.html#getStarted">GET STARTED</a></button>
             </div>
             <div class="cards">
                 <img src="./img/image 5.png">
                 <p>Short Term Accomodation</p>
-                <button class="btn noFillBtn">get started</button>
+                <button class="btn noFillBtn"><a id="blueGetStarted" href="contactUs.html#getStarted">GET STARTED</a></button>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="supportServices2">
             <div class="cards">
                 <img src="./img/image 8.png">
                 <p>Disability Support Services</p>
-                <button class="btn noFillBtn">get started</button>
+                <button class="btn noFillBtn"><a id="blueGetStarted" href="contactUs.html#getStarted">GET STARTED</a></button>
             </div>
             <div class="cards">
                 <img src="./img/image 22.png">
                 <p>Therapeutic Support Services</p>
-                <button class="btn noFillBtn">get started</button>
+                <button class="btn noFillBtn"><a id="blueGetStarted" href="contactUs.html#getStarted">GET STARTED</a></button>
             </div>
             <div class="cards">
                 <img src="./img/image 6.png">
                 <p>Behaviour Management Services</p>
-                <button class="btn noFillBtn">get started</button>
+                <button class="btn noFillBtn"><a id="blueGetStarted" href="contactUs.html#getStarted">GET STARTED</a></button>
             </div>
         </div>
     </div>
@@ -299,7 +310,7 @@
                 Please contact us directly with any questions, comments, or scheduling inquiries you may have.
             </p>
         </div>
-        <form>
+        <form id="forms">
             <div class="smallInputs">
             <input class="smallInput" type="text" id="name" name="name" placeholder="Enter Name">
             <input class="smallInput" type="text" id="email" name="email" placeholder="Enter Email">
