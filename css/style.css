@@ -255,7 +255,6 @@ h5{
 
   /* strategic direction */
   .strategicContainer{
-    width: 100%;
     border-radius: 30px;
     background: #E0E0E0;
     margin-left: 5%;
@@ -722,7 +721,9 @@ line-height: normal;
   font-size: small;
   padding: 2px;
 }
-
+#ellipse{
+  width: 80%;
+}
 .nav img{
   width: 80%;
   height: 80%;
@@ -752,12 +753,24 @@ line-height: normal;
 .cards img{
   width:100%;
 }
+.strategicContainer{
+  width: fit-content;
+}
+.NDIS{
+  width: fit-content;
+}
 .bookContainer{
   display: flex;
   justify-content: center;
 }
 #emailUs{
+  width: 450px;
+  margin-right: 50px;
   margin-bottom: 10px;
+}
+#callUs{
+  width: 450px;
+  margin-right: 50px;
 }
 #submitNow{
   margin-right: 20%;
@@ -765,6 +778,7 @@ line-height: normal;
 .contactUs{
   width: 100%;
   text-align: center;
+  font-size: small;
   
 }
 .ctrl{
@@ -774,6 +788,7 @@ line-height: normal;
 .supportCoordination{
   display: flex;
   justify-content: center;
+  font-size: 10px;
 }
 .contactUsContainer{
   display: flex;
@@ -797,6 +812,7 @@ line-height: normal;
 #smallPhone{
  margin: 0px;
  margin-bottom: 10px;
+
 }
 #smallEmail{
 margin: 0px;
