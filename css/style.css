@@ -772,10 +772,12 @@ line-height: normal;
   width: 450px;
   margin-right: 50px;
   margin-bottom: 10px;
+  margin-left: 50px;
 }
 #callUs{
   width: 450px;
   margin-right: 50px;
+  margin-left: 50px;
 }
 #submitNow{
   margin-right: 20%;
