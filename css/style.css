@@ -255,6 +255,7 @@ h5{
 
   /* strategic direction */
   .strategicContainer{
+    width: 100%;
     border-radius: 30px;
     background: #E0E0E0;
     margin-left: 5%;
@@ -499,6 +500,7 @@ h5{
 }
 
 .callToday{
+  margin-left: 100px;
   padding-right: 300px;
   
 }
@@ -699,7 +701,7 @@ line-height: normal;
 @media (max-width: 800px){ 
     #contact{
       margin:0px;
-      width: 100%;
+      width: fit-content;
       height: 100px;
       padding-left: 0px;
   }
@@ -808,7 +810,7 @@ line-height: normal;
   height: 50px;
  
 }
-/* training serveice page */
+/* training service page */
 #smallPhone{
  margin: 0px;
  margin-bottom: 10px;
@@ -816,5 +818,16 @@ line-height: normal;
 }
 #smallEmail{
 margin: 0px;
+}
+/* contactUs page */
+.callToday{
+  padding-left: 10%;
+}
+.detail{
+  width: 300px;
+}
+
+.detailMessage{
+  width: 300px;
 }
 }
