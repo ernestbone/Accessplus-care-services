@@ -741,16 +741,16 @@ line-height: normal;
   width: 100%;
 }
 #ellipseImage1{
-  top: 20%;
+  top: 10%;
   right: 25%;
   margin-right: 10%;
   }
   #ellipseImage2{
-    bottom: 10%;
+    bottom: 20%;
     left: 30%;
   }
   #ellipseImage3{
-    bottom: 0%;
+    bottom: 20%;
   }
 .nav img{
   width: 80%;
@@ -761,7 +761,6 @@ line-height: normal;
   width: 100%;
   display:grid;
   justify-content: center;
-  overflow: hidden;
 }
 
 .howItWorks{
@@ -770,7 +769,7 @@ line-height: normal;
   margin-bottom: 20%;
 }
 .howItWorks img{
-  width: 40%;
+  width: 50%;
 }
 #welcomeImg{
   width: 70%;
