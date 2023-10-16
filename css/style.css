@@ -849,20 +849,26 @@ line-height: normal;
   margin-left: 15%;
   text-align: center;
   padding-left: 10%;
+}
+.emailCallContainer{
+  display: block;
+  margin-left: -10%;
   
 }
 #emailUs{
-  width: 300px;
-  padding-left: 15%;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  
+  background-position: left 0px center;
+  width: 76%;
+  padding-left: 25%;
+  padding-top: 5%;
+  margin-bottom: 5%;
+ 
 }
 #callUs{
-  width: 300px;
-  padding-left: 15%;
-  margin-right: 150px;
-  margin-left: 0px;
+  padding-top: 5%;
+  width: 76%;
+  padding-left: 25%;
+  background-position: left 0px center;
+  
 }
 .contactUsForm{
   margin-left: 15%;
@@ -910,6 +916,7 @@ line-height: normal;
   justify-content: center;
   font-size: 10px;
   overflow-x: hidden;
+  margin-left: 1%;
 }
 .contactUsContainer{
   display: flex;
@@ -938,6 +945,28 @@ line-height: normal;
 }
 #smallEmail{
 margin: 0px;
+}
+.behaviourContainer{
+  text-align: center;
+  width: 100%;
+  padding: 20%;
+  margin-left: -20%;
+}
+.behaviourContainer p{
+  width: 88%;
+}
+.behaviourContainer h1{
+  width: 90%;
+}
+.listOfServices{
+  width: 95%;
+}
+#listOfServices{
+  padding-right: 20%;
+}
+.therapists{
+  width: 75%;
+  margin: 0;
 }
 /* contactUs page */
 .callToday{
