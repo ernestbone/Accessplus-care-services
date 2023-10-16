@@ -399,6 +399,7 @@ h5{
 
   /* contact form */
   .contactUsForm{
+    text-rendering: auto;
     text-align: center;
     margin-top: 10%;
   }
@@ -699,8 +700,10 @@ line-height: normal;
 }
 
 @media (max-width: 800px){ 
+    body{
+      overflow-x: hidden;
+    }
   #indexFooter{
-  
     width: 110%;
   }
     #contact{
@@ -708,9 +711,16 @@ line-height: normal;
       width: 100%;
       height: 100px;
       padding-left: 0px;
-      
-      
   }
+  #insta{
+    padding-right: 10%;
+    margin-right: 4%
+  }
+  #contact img{
+    width: 20px;
+    height: 20px;
+    padding: 35px 0px 20px 10px
+}
   .nav{ 
     display: grid;
     justify-content: center;
@@ -725,17 +735,19 @@ line-height: normal;
   width: 80%;
   height: 80%;
   padding-top: 45%;
+  margin-left: 10%;
   
 }
 .nav a{
-  font-size: small;
+  font-size: smaller;
   padding-left: 2px;
-  
+  font-weight: 600;
 }
 
 .dropbtn{
-  font-size: small;
+  font-size: smaller;
   padding: 2px;
+  font-weight: 600;
 }
 #ellipse{
   margin: 0;
@@ -777,7 +789,7 @@ line-height: normal;
 }
 .welcomeMessage{
   width: 89%;
-  padding-left: 5%;
+  padding-left: 0%;
 }
 #welcomeImg{
   width: 70%;
@@ -847,8 +859,19 @@ line-height: normal;
 .contactUsForm{
   margin-left: 15%;
 }
+.smallInput{
+  height: 50px;
+}
+#smallInputs{
+  margin-left:5% ;
+  display: grid;
+  width: 290%;
+}
+#message{
+  height: 200px;
+}
 #submitNow{
-  margin-right: 20%;
+  margin-left: 75px;
   padding: 10px;
 }
 .contactUsIndex{
@@ -884,14 +907,6 @@ line-height: normal;
   width: 100%;
 }
 
-.smallInput{
-  height: 50px;
-}
-#smallInputs{
-  margin-left:5% ;
-  display: grid;
-  width: 290%;
-}
 /* training service page */
 #smallPhone{
  margin: 0px;
