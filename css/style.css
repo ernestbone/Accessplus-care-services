@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: #f4f4f4;
     color: #121212;
-    
+
 }
 
 a{
@@ -16,7 +16,7 @@ a{
 
 form{
   text-align: center;
-  overflow: hidden;
+  
 }
 
 footer{
@@ -93,6 +93,7 @@ h5{
 
 /* Navigaation */
 .nav{
+    
     display: flex;
     justify-content: center;
 }
@@ -133,7 +134,7 @@ h5{
 }
 
 .img1 img{
-    max-width: 120%;
+    max-width: 100%;
 }
 
 /* welcome message */
@@ -143,15 +144,12 @@ h5{
     padding-top: 10%;
     padding-left: 5%;
     width: fit-content;
-    
 }
 #welcomeImg{
     width: 50%;
     height: 50%;
-    overflow: hidden;
 }
 .welcomeMessage{
-    overflow: hidden;
     padding-left: 5%;
 }
 
@@ -159,8 +157,6 @@ h5{
   /* How it works section */
   #howItWorks{
     padding-left: 25px;
-    overflow: hidden;
-  
   }
   #btn1{
     background-image: url( '../img/ph_arrow-right-bold.svg');
@@ -177,7 +173,7 @@ h5{
     background-position: center;
     margin-left: 10%;
     margin-right: 10%;
-    
+   
   }
   
   .imageContainer{
@@ -228,7 +224,6 @@ h5{
   .supportServices{
     text-align: center;
     margin-top: 10%;
-    overflow: hidden;
   }
   .supportServices h1{
     margin-bottom: -5%;
@@ -264,7 +259,6 @@ h5{
     border-radius: 30px;
     background: #E0E0E0;
     margin-left: 5%;
-    overflow: hidden;
   }
   .strategicContainer img{
     width: 50%;
@@ -707,11 +701,10 @@ line-height: normal;
 @media (max-width: 800px){ 
   footer{
     width: 130%;
-    margin-left: -10%;
   }
     #contact{
       margin:0px;
-      width: fit-content;
+      width: 130%;
       height: 100px;
       padding-left: 0px;
   }
@@ -734,21 +727,8 @@ line-height: normal;
   padding: 2px;
 }
 #ellipse{
-  margin-left: -5%;
-  width: 100%;
+  width: 80%;
 }
-#ellipseImage1{
-  top: 10%;
-  right: 25%;
-  margin-right: 10%;
-  }
-  #ellipseImage2{
-    bottom: 20%;
-    left: 30%;
-  }
-  #ellipseImage3{
-    bottom: 20%;
-  }
 .nav img{
   width: 80%;
   height: 80%;
@@ -761,12 +741,8 @@ line-height: normal;
 }
 
 .howItWorks{
-  overflow: hidden;
-  width: 100%;
+  width: 80%;
   margin-bottom: 20%;
-}
-.howItWorks img{
-  width: 50%;
 }
 #welcomeImg{
   width: 70%;
@@ -794,7 +770,7 @@ line-height: normal;
 }
 .instagramBtn{
   margin-top: 10%;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 #emailUs{
   width: 450px;
@@ -812,7 +788,6 @@ line-height: normal;
   padding: 10px;
 }
 .contactUs{
-  margin-left: -10%;
   width: 130%;
   text-align: center;
   font-size: small;
