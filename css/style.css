@@ -705,18 +705,17 @@ line-height: normal;
     }
   #indexFooter{
     width: 110%;
-    overflow-x: hidden;
+    
   }
     #contact{
       margin:0px;
       width: 100%;
       height: 100px;
-      padding-left: 0px;
-      overflow-x: hidden;
+      padding-left: 10px;
   }
   #insta{
     padding-right: 10%;
-    margin-right: 4%
+    margin-right: 10%
   }
   #contact img{
     width: 20px;
@@ -730,7 +729,6 @@ line-height: normal;
     font-size: small;
     padding-bottom: 10%;
     margin-top: -50%;
-    overflow-x: hidden;
     
    
 }
@@ -739,7 +737,6 @@ line-height: normal;
   height: 80%;
   padding-top: 45%;
   margin-left: 10%;
-  overflow-x: hidden;
   
 }
 .nav a{
@@ -761,7 +758,6 @@ line-height: normal;
 }
 #ellipse img{
   width: 50%;
-  overflow-x: hidden;
 }
 #ellipseImage1{
   top: 10%;
@@ -783,7 +779,7 @@ line-height: normal;
   width: 100%;
   display:grid;
   justify-content: center;
-  overflow-x: hidden;
+ 
 }
 
 .howItWorks{
@@ -795,16 +791,14 @@ line-height: normal;
 .welcomeMessage{
   width: 89%;
   padding-left: 0%;
-  overflow-x: hidden;
 }
 #welcomeImg{
   width: 70%;
   height: 100%;
-  overflow-x: hidden;
+  
 }
 .cards{
   width: 70%;
-  overflow-x: hidden;
 }
 .cards img{
   width:100%;
@@ -812,29 +806,24 @@ line-height: normal;
 .strategicContainer{
   width: fit-content;
   margin: 0;
-  overflow-x: hidden;
 }
 .choice{
   width: 100%;
   display: block;
   padding: 0;
   padding-top: 10%;
-  overflow-x: hidden;
 }
 #img9{
   width: 90%;
   margin-left: 5%;
-  overflow-x: hidden;
 }
 
 .NDIS{
   width: fit-content;
-  overflow-x: hidden;
 }
 .stayConnected{
   margin: 0;
   padding-right: 10%;
-  overflow-x: hidden;
   
 }
 .stayConnected h2{
@@ -844,7 +833,6 @@ line-height: normal;
 .bookContainer{
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
 }
 .instagramBtn{
   margin-top: 10%;
@@ -854,14 +842,13 @@ line-height: normal;
   margin-left: 15%;
   text-align: center;
   padding-left: 10%;
-  overflow-x: hidden;
+  
 }
 #emailUs{
   width: 300px;
   padding-left: 15%;
   margin-right: 0px;
   margin-bottom: 10px;
-  overflow-x: hidden;
   
 }
 #callUs{
@@ -869,11 +856,9 @@ line-height: normal;
   padding-left: 15%;
   margin-right: 150px;
   margin-left: 0px;
-  overflow-x: hidden;
 }
 .contactUsForm{
   margin-left: 15%;
-  overflow-x: hidden;
 }
 .smallInput{
   height: 50px;
@@ -882,55 +867,50 @@ line-height: normal;
   margin-left:5% ;
   display: grid;
   width: 290%;
-  overflow-x: hidden;
 }
 #message{
   height: 200px;
-  overflow-x: hidden;
 }
 #submitNow{
   margin-left: 75px;
   padding: 10px;
-  overflow-x: hidden;
 }
 .contactUsIndex{
   width: 110%;
   text-align: center;
-  font-size: small;
-  overflow-x: hidden;
+  font-size: smaller;
   
 }
+
 .contacts{
   padding-right: 20%;
-  overflow-x: hidden;
 }
 .ctrl{
   padding: 10px;
   padding-right: 40px;
 }
+#graceText{
+  width: 75%;
+  margin-left: 12%;
+}
 .supportCoordination{
   display: flex;
   justify-content: center;
   font-size: 10px;
-  overflow-x: hidden;
 }
 .contactUsContainer{
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
 }
 .vector{
   width: 4%;
-  overflow-x: hidden;
 }
 .unsplash {
   display: grid;
   height: fit-content;
-  overflow-x: hidden;
 }
 #unsplash{
   width: 100%;
-  overflow-x: hidden;
 }
 
 /* training service page */
