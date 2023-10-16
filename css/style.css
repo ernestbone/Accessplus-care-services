@@ -946,6 +946,10 @@ line-height: normal;
 }
 
 /* training service page */
+#tImg{
+  margin-left: -5%;
+  width: 90%;
+}
 #smallPhone{
  margin: 0px;
  margin-bottom: 10px;
@@ -958,7 +962,7 @@ margin: 0px;
   text-align: center;
   width: 100%;
   padding: 20%;
-  margin-left: -20%;
+  margin-left: -10%;
 }
 .behaviourContainer p{
   width: 88%;
@@ -994,6 +998,8 @@ margin: 0px;
   height: 100%;
 }
 .whoWeAre{
-  width: 80%;
+  width: 70%;
 }
+/* youth mentoring page */
+
 }
