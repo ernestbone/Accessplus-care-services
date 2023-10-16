@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: #f4f4f4;
     color: #121212;
-
+    
 }
 
 a{
@@ -16,7 +16,7 @@ a{
 
 form{
   text-align: center;
-  
+  overflow: hidden;
 }
 
 footer{
@@ -26,6 +26,7 @@ footer{
   color: #fff;
   width: 100%;
   text-align: center;
+  overflow: hidden;
 }
 
 
@@ -81,6 +82,7 @@ h5{
     justify-content: center;
     color: #FFF;
     padding-left: 50%;
+    overflow: hidden;
 }
 #contact img{
     width: 20px;
@@ -89,11 +91,11 @@ h5{
 }
 #contact p{
     padding-top: 20px;
+    overflow: hidden;
 }
 
 /* Navigaation */
 .nav{
-    
     display: flex;
     justify-content: center;
 }
@@ -135,6 +137,7 @@ h5{
 
 .img1 img{
     max-width: 100%;
+    overflow: hidden;
 }
 
 /* welcome message */
@@ -144,12 +147,15 @@ h5{
     padding-top: 10%;
     padding-left: 5%;
     width: fit-content;
+    
 }
 #welcomeImg{
     width: 50%;
     height: 50%;
+    overflow: hidden;
 }
 .welcomeMessage{
+    overflow: hidden;
     padding-left: 5%;
 }
 
@@ -157,6 +163,8 @@ h5{
   /* How it works section */
   #howItWorks{
     padding-left: 25px;
+    overflow: hidden;
+  
   }
   #btn1{
     background-image: url( '../img/ph_arrow-right-bold.svg');
@@ -173,7 +181,7 @@ h5{
     background-position: center;
     margin-left: 10%;
     margin-right: 10%;
-   
+    
   }
   
   .imageContainer{
@@ -224,6 +232,7 @@ h5{
   .supportServices{
     text-align: center;
     margin-top: 10%;
+    overflow: hidden;
   }
   .supportServices h1{
     margin-bottom: -5%;
@@ -259,6 +268,7 @@ h5{
     border-radius: 30px;
     background: #E0E0E0;
     margin-left: 5%;
+    overflow: hidden;
   }
   .strategicContainer img{
     width: 50%;
@@ -729,6 +739,18 @@ line-height: normal;
 #ellipse{
   width: 80%;
 }
+#ellipseImage1{
+  top: 20%;
+  right: 25%;
+  margin-right: 10%;
+  }
+  #ellipseImage2{
+    bottom: 20%;
+    left: 30%;
+  }
+  #ellipseImage3{
+    bottom: 5%;
+  }
 .nav img{
   width: 80%;
   height: 80%;
@@ -738,11 +760,16 @@ line-height: normal;
   width: 100%;
   display:grid;
   justify-content: center;
+  overflow: hidden;
 }
 
 .howItWorks{
-  width: 80%;
+  overflow: hidden;
+  width: 100%;
   margin-bottom: 20%;
+}
+.howItWorks img{
+  width: 50%;
 }
 #welcomeImg{
   width: 70%;
@@ -770,7 +797,7 @@ line-height: normal;
 }
 .instagramBtn{
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 #emailUs{
   width: 450px;
