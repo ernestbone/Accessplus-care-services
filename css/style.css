@@ -1,11 +1,10 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: hsl(0, 0%, 7%);
+  color: #121212;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 a{
@@ -71,15 +70,13 @@ h5{
 }
 /* Top contact information */
 #contact{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: fit-content;
+    width: 100%;
     height: 90px;
     background: #105D77;
     display: flex;
     justify-content: center;
     color: #FFF;
-    padding-left: 50%;
+    padding-left: 10%;
 }
 #contact img{
     width: 20px;
@@ -714,8 +711,9 @@ line-height: normal;
       overflow-x: hidden;
   }
   #insta{
-    padding-right: 15%;
-    margin-left: -2%
+    margin-top: 8%;
+    padding-right: 10%;
+    margin-left: -8%
   }
   #contact img{
     width: 20px;
@@ -976,9 +974,7 @@ margin: 0px;
   overflow-x: hidden;
 }
 #listOfServices1{
-  width: 70%;
-  padding-right: 15%;
-  overflow-x: hidden;
+ padding-left: 70px;
 }
 .therapists{
   width: 75%;
