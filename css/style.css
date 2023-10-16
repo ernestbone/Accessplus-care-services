@@ -701,7 +701,7 @@ line-height: normal;
 
 @media (max-width: 800px){ 
     body{
-      overflow-x: hidden;
+     overflow-x: hidden;
     }
   #indexFooter{
     width: 110%;
@@ -710,12 +710,12 @@ line-height: normal;
       margin:0px;
       width: 100%;
       height: 100px;
-      padding-left: 10px;
+      padding-left: 0%;
       overflow-x: hidden;
   }
   #insta{
-    padding-right: 10%;
-    margin-right: 10%
+    padding-right: 15%;
+    margin-left: -2%
   }
   #contact img{
     width: 20px;
@@ -863,6 +863,14 @@ line-height: normal;
   margin-bottom: 5%;
  
 }
+#emailUs p{
+  padding-top: 10%;
+  padding-right: 30%;
+}
+#emailUs h3{
+  padding-top: 20%;
+  margin-bottom: -10%;
+}
 #callUs{
   padding-top: 5%;
   width: 76%;
@@ -981,6 +989,11 @@ margin: 0px;
 }
 /* about us page */
 .jobOpportunities{
+  margin: 0;
+  width: fit-content;
   height: 100%;
+}
+.whoWeAre{
+  width: 80%;
 }
 }
