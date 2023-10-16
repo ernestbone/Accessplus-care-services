@@ -701,7 +701,7 @@ line-height: normal;
 
 @media (max-width: 800px){ 
     body{
-     overflow-x: hidden;
+      overflow-x: hidden;
     }
   #indexFooter{
     width: 110%;
@@ -904,7 +904,6 @@ line-height: normal;
   font-size: smaller;
   
 }
-
 .contacts{
   padding-right: 20%;
   overflow-x: hidden;
@@ -949,6 +948,7 @@ line-height: normal;
 #tImg{
   margin-left: -5%;
   width: 90%;
+  overflow-x: hidden;
 }
 #smallPhone{
  margin: 0px;
@@ -963,6 +963,7 @@ margin: 0px;
   width: 100%;
   padding: 20%;
   margin-left: -10%;
+  overflow-x: hidden;
 }
 .behaviourContainer p{
   width: 88%;
@@ -972,14 +973,18 @@ margin: 0px;
 }
 .listOfServices{
   width: 95%;
+  overflow-x: hidden;
 }
 #listOfServices1{
-  padding-left: 15%;
+  width: 70%;
+  padding-right: 15%;
+  overflow-x: hidden;
 }
 .therapists{
   width: 75%;
   margin: 0;
   margin-top: 10%;
+  overflow-x: hidden;
 }
 /* contactUs page */
 .callToday{
@@ -997,8 +1002,10 @@ margin: 0px;
   margin: 0;
   width: fit-content;
   height: 100%;
+  overflow-x: hidden;
 }
 .whoWeAre{
+  overflow-x: hidden;
   width: 70%;
 }
 /* youth mentoring page */
